@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Seed Firestore with dummy products",
+			"command": "npx ts-node src/scripts/seedProducts.ts",
+			"group": "build",
+			"isBackground": false
+		}
+	]
+}
